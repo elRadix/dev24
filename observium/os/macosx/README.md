@@ -39,7 +39,9 @@ An example:
 	sysobjectid 1.3.6.1.4.1.8072.3.2.16
 
 Start the SNMP service with the following command:
+
 	sudo launchctl load -w /System/Library/LaunchDaemons/org.net-snmp.snmpd.plist
 
 Stop the SNMP service:
+
 	sudo launchctl unload -w /System/Library/LaunchDaemons/org.net-snmp.snmpd.plist
