@@ -14,12 +14,15 @@ Set the following variables in config.php
 
 ## Enable SNMP on Mac OS X
 Open a terminal and make a back-up of the orignal snmpd.conf
+
 	sudo mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.org
 
 Update the snmpd.conf
+
 	sudo vi /etc/snmp/snmpd.conf
 
 An example:
+
 	#Allow read-access with the following SNMP Community String:
 	rocommunity public
 		
