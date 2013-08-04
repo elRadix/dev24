@@ -1,4 +1,4 @@
-# Mac OS X: OS Support for Observium
+# Mac OS X Support for Observium
 This will add Mac OS X support to Observium
 
 ## Observium Instructions
