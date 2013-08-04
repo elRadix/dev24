@@ -5,6 +5,7 @@ This will add Mac OS X support to Observium
 Copy the files to the correct directories.
 
 Set the following variables in config.php
+
 	$os = "macosx";
 	$config['os'][$os]['text']              = "Mac OS X";
 	$config['os'][$os]['type']              = "workstation";
