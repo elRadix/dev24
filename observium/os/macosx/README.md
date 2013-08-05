@@ -31,8 +31,8 @@ An example:
 	# Location of the device
 	syslocation data centre A
 	
-	# Human Contact for the device
-	syscontact SysAdmin
+	# Human Contact (mailaddress) for the device
+	syscontact SysAdmin@example.org
 	
 	# System Name of the device
 	sysName SystemName
